@@ -27,8 +27,6 @@ def predict(image_file, threshold=0.6):
 
     # Load model
     model_path = "src/model/Melanoma_MobileNet.h5"
-    #model_path = "src/model/Melanoma_MobileNetV2.h5"
-    #model_path = "src/model/Melanoma_CNN.h5"
     if not os.path.exists(model_path):
         raise FileNotFoundError(f"Model file tidak ditemukan di {model_path}")
     model = tf.keras.models.load_model(model_path)
