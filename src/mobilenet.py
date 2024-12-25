@@ -7,9 +7,10 @@ import os
 # --- CUSTOM STYLING 
 st.set_page_config(page_title="Klasifikasi Citra Melanoma", layout="centered")
 
+
 # --- HEADER 
-st.title("Klasifikasi Citra Melanoma")
-st.write("Unggah gambar melanoma untuk prediksi")
+st.title("Model MobileNetV2 untuk Klasifikasi Melanoma")
+st.write("Halaman ini menampilkan model MobileNetV2 yang digunakan untuk klasifikasi citra melanoma")
 
 # --- FILE UPLOADER 
 upload = st.file_uploader("📤 Unggah citra melanoma di sini (PNG/JPG)", type=['png', 'jpg', 'jpeg'])

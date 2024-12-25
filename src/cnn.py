@@ -21,8 +21,8 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # --- HEADER ---
-st.title("Klasifikasi Citra Melanoma")
-st.write("Unggah gambar melanoma untuk prediksi")
+st.title("Model CNN untuk Klasifikasi Melanoma")
+st.write("Halaman ini menampilkan model CNN yang digunakan untuk klasifikasi citra melanoma")
 
 # --- FILE UPLOADER ---
 upload = st.file_uploader("📤 Unggah citra melanoma di sini (PNG/JPG)", type=['png', 'jpg', 'jpeg'])
