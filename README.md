@@ -48,7 +48,7 @@ env\Scripts\activate (Windows)</code></pre>
     <p>Setelah diunduh, pindahkan file model ke folder <code>src/model</code> di dalam repositori.</p>
   </li>
   <li><strong>Jalankan aplikasi Streamlit</strong>:
-    <pre><code>streamlit run app.py</code></pre>
+    <pre><code>streamlit run src/app.py</code></pre>
   </li>
 </ol>
 </details>
