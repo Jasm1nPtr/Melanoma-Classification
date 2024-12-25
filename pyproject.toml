@@ -10,19 +10,6 @@ requires-python = "==3.11.*"
 readme = "README.md"
 license = {text = "MIT"}
 
-[tool.poetry]
-name = "Melanoma-Classification"
-version = "0.1.0"
-description = "A Streamlit app for melanoma classification"
-authors = ["jasmin_umm <jasmin_umm@sumbawabaratkab.go.id>"]
-dependencies = [
-    "streamlit>=1.41.1",
-    "tensorflow>=2.18.0"
-]
-
-[build-system]
-requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
 
 [tool.pdm]
 distribution = false
