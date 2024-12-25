@@ -31,16 +31,23 @@ Semua gambar diubah ukurannya menjadi resolusi rendah (224x224x3) dalam format R
 <details>
 <summary>Details</summary>
 <ol>
-  <li>**Clone repository**:
+  <li><strong>Clone repository</strong>:
     <pre><code>git clone https://github.com/Jasm1nPtr/Melanoma-Classification.git</code></pre>
   </li>
-  <li>**Buat virtual environment (opsional)**:
-    <pre><code>python -m venv env<br>source env/bin/activate (Mac/Linux)<br>env\Scripts\activate (Windows)</code></pre>
+  <li><strong>Buat virtual environment (opsional)</strong>:
+    <pre><code>python -m venv env
+source env/bin/activate (Mac/Linux)
+env\Scripts\activate (Windows)</code></pre>
   </li>
-  <li>**Install dependencies**:
+  <li><strong>Install dependencies</strong>:
     <pre><code>pip install -r requirements.txt</code></pre>
   </li>
-  <li>**Jalankan aplikasi Streamlit**:
+  <li><strong>Unduh file model (.h5) dari Google Drive</strong>:
+    <p>Unduh file model yang diperlukan melalui tautan berikut:</p>
+    <a href="https://drive.google.com/drive/folders/1RpgIyy4q5a2kqd0TFlJGwYhltN0suV5w?usp=sharing" target="_blank">Download Model.h5</a>
+    <p>Setelah diunduh, pindahkan file model ke folder <code>src/model</code> di dalam repositori.</p>
+  </li>
+  <li><strong>Jalankan aplikasi Streamlit</strong>:
     <pre><code>streamlit run app.py</code></pre>
   </li>
 </ol>
