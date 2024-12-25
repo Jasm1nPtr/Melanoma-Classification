@@ -116,6 +116,7 @@ Model MobileNetV2 dan CNN diuji untuk mendeteksi melanoma dan mengklasifikasikan
 | accuracy    |                         86%       |
 
 Learning Curve: 
+
 <img width="504" alt="Screenshot 2024-12-26 at 03 48 02" src="https://github.com/user-attachments/assets/477acdb4-cd45-43ab-baa1-09e215f7db25" />
 <img width="503" alt="Screenshot 2024-12-26 at 03 48 26" src="https://github.com/user-attachments/assets/41635714-199c-4bfa-ae0f-3f56cd23e37b" />
 
@@ -138,10 +139,12 @@ Learning Curve:
 
 ---
 
-## Link Live Demo
+## Link Live Demo & Model .h5
 Aplikasi web ini telah di-deploy dan dapat diakses melalui tautan berikut:
 
 [Live Demo Aplikasi Melanoma Detection](https://your-live-demo-link.com)
+
+[Model.h5](https://drive.google.com/drive/folders/1RpgIyy4q5a2kqd0TFlJGwYhltN0suV5w?usp=sharing)
 
 ---
 
