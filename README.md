@@ -8,7 +8,7 @@
   - [MobileNetV2](#mobilenetv2)
   - [CNN](#cnn)
 - [Hasil dan Analisis](#hasil-dan-analisis)
-- [Link Live Demo](#link-live-demo)
+- [Link Live Demo & Model .h5](#link-live-demo--model-h5)
 - [Author](#author)
 
 ## Deskripsi 
@@ -117,8 +117,17 @@ Model MobileNetV2 dan CNN diuji untuk mendeteksi melanoma dan mengklasifikasikan
 
 Learning Curve: 
 
-<img width="504" alt="Screenshot 2024-12-26 at 03 48 02" src="https://github.com/user-attachments/assets/477acdb4-cd45-43ab-baa1-09e215f7db25" />
-<img width="503" alt="Screenshot 2024-12-26 at 03 48 26" src="https://github.com/user-attachments/assets/41635714-199c-4bfa-ae0f-3f56cd23e37b" />
+<table>
+  <tr>
+    <th>Grafik Accuracy</th>
+    <th>Grafik Loss</th>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/477acdb4-cd45-43ab-baa1-09e215f7db25" alt="Accuracy Graph" width="400"/></td>
+    <td><img src="https://github.com/user-attachments/assets/41635714-199c-4bfa-ae0f-3f56cd23e37b" alt="Loss Graph" width="400"/></td>
+  </tr>
+</table>
+
 
 #### CNN
 Model CNN dirancang untuk mendeteksi melanoma dan mengklasifikasikannya menjadi dua kelas: **benign** (jinak) dan **malignant** (ganas). Dengan arsitektur sederhana namun efektif, model CNN ini memberikan hasil prediksi sebagai berikut:
@@ -131,7 +140,16 @@ Model CNN dirancang untuk mendeteksi melanoma dan mengklasifikasikannya menjadi 
 
 Learning Curve:
 
-<img width="661" alt="Screenshot 2024-12-26 at 03 46 02" src="https://github.com/user-attachments/assets/ca228040-b542-495a-9c99-11aff9c20b36" />
+<table>
+  <tr>
+    <th>Grafik Accuracy</th>
+    <th>Grafik Loss</th>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/714da95c-a7c0-4491-b82c-71dddf1e5cff" alt="Accuracy Graph" width="400"/></td>
+    <td><img src="https://github.com/user-attachments/assets/8607a3df-e2fe-4e99-a534-6a2d0672563f" alt="Loss Graph" width="400"/></td>
+  </tr>
+</table>
 
 ### Analisis
 - **MobileNetV2** memberikan performa lebih baik dalam mendeteksi kelas benign, dengan precision mencapai 88% dan recall 93%. Namun, recall untuk kelas malignant lebih rendah (80%), sehingga beberapa kasus malignant tidak terdeteksi.
@@ -142,11 +160,15 @@ Learning Curve:
 ## Link Live Demo & Model .h5
 Aplikasi web ini telah di-deploy dan dapat diakses melalui tautan berikut:
 
-[Live Demo Aplikasi Melanoma Detection](https://your-live-demo-link.com)
+[Live Demo Aplikasi Melanoma Detection](https://melanoma-classification-cngja3ogvfddsyth2m3sfj.streamlit.app/)
 
 [Model.h5](https://drive.google.com/drive/folders/1RpgIyy4q5a2kqd0TFlJGwYhltN0suV5w?usp=sharing)
 
 ---
 
 ## Author
-Proyek ini dikembangkan oleh [Jasm1nPtr](https://github.com/Jasm1nPtr).
+Proyek ini dikembangkan oleh [Jasm1nPtr](https://github.com/Jasm1nPtr)
+
+Nama: Jasmin Putri
+
+NIM: 202110370311075
