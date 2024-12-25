@@ -1,20 +1,15 @@
-[tool.poetry]
-name = "Melanoma-Classification"
+[project]
+name = "uap-ML-2"
 version = "0.1.0"
-description = "A Streamlit app for melanoma classification"
-authors = ["jasmin_umm <jasmin_umm@sumbawabaratkab.go.id>"]
-dependencies = {
-    "python" = "3.11.*",
-    "streamlit" = "^1.41.1",
-    "tensorflow" = "^2.18.0",
-    "matplotlib" = "*",
-    "seaborn" = "*",
-    "numpy" = "*",
-    "pandas" = "*"
-}
+description = "Default template for PDM package"
+authors = [
+    {name = "jasmin_umm", email = "jasmin_umm@sumbawabaratkab.go.id"},
+]
+dependencies = []
+requires-python = "==3.11.*"
 readme = "README.md"
-license = { text = "MIT" }
+license = {text = "MIT"}
 
-[build-system]
-requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
+
+[tool.pdm]
+distribution = false
