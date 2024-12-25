@@ -5,7 +5,14 @@ description = "Default template for PDM package"
 authors = [
     {name = "jasmin_umm", email = "jasmin_umm@sumbawabaratkab.go.id"},
 ]
-dependencies = ["streamlit>=1.41.1", "tensorflow>=2.18.0"]
+dependencies = [
+    "streamlit>=1.41.1",
+    "tensorflow>=2.18.0",
+    "matplotlib",
+    "seaborn",
+    "numpy",
+    "pandas"
+]
 requires-python = "==3.11.*"
 readme = "README.md"
 license = {text = "MIT"}
